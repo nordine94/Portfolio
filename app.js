@@ -32,7 +32,7 @@ if(window.matchMedia("(max-width: 1300px)")) {
 const txtAnim = document.querySelector(".txt-animation");
 
 let typewriter = new Typewriter(txtAnim, {
-    loop: false, // Animation s'arretera et ne tournera pas en boucle 
+    loop: true, // Animation s'arretera et ne tournera pas en boucle 
     deleteSpeed: 20 // vitesse d'effacement
 
 })
@@ -45,19 +45,23 @@ typewriter // Création (methode chaining = les unes à la suite des autres)
   .typeString("<strong>, Développeur en formation !</strong>")
   .pauseFor(1000)
   .deleteChars(14) // supprime un nombre de caractère "en formation"
-  .typeString("<span style='color: midnightblue;'> HTML</span> !")
+  .typeString("<span style='color: #f8754b;'> HTML</span> !")
   .pauseFor(1000)
   .deleteChars(6)
-  .typeString("<span style='color: #27ae60;'> CSS</span> !")
+  .typeString("<span style='color: #2962ff;'> CSS</span> !")
   .pauseFor(1000)
   .deleteChars(5)
-  .typeString("<span style='color: #D300E3;'> Bootstrap</span> !")
+  .typeString("<span style='color: #f0e343;'> Javascript</span> !")
   .pauseFor(1000)
   .deleteChars(12)
-  .typeString("<span style='color: #7B7B7B;'> Wordpress</span> !")
+  .typeString("<span style='color: #75a868;'> NodeJs</span> !")
   .pauseFor(1000)
   .deleteChars(12)
-  .typeString("<span style='color: #DEE904;'> JavaScript</span> !")
+  .typeString("<span style='color: #32def8;'> React</span> !")
+  .pauseFor(1000)
+  .deleteChars(10)
+  .typeString("<span style='color: #4285f4;'> MYSQL</span> !")
+  .pauseFor(1000)
   .start(); // Pour commencer l'animation
 
 

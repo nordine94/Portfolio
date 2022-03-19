@@ -658,7 +658,62 @@ h1 {
 }
 
 /**************************************SECTION RANGE*******************************************/
-.section-range {
+.skills {
+    background: #485563;
+
+}
+
+.titre-exp {
+    font-size: 40px;
+    text-align: center;
+    padding: 50px 0;
+    margin: 50px 0 70px 0;
+    padding-left: 300px;
+    color: #e7e7e7;
+}
+
+.skills .icons-container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px repeat(2, 50px); 
+    max-width: 800px;
+    height:auto;
+    margin: 60px auto;
+    gap: 100px; 
+    padding-bottom: 50px;
+    grid-template-areas:
+    "a a a a b b b b c c c c" 
+    "d d d d e e e e f f f f";  
+}
+
+.skills .icons-container .icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills .icons-container img {
+    height: 100px;
+}
+
+.skills .icons-container .icon .skill {
+    color: #e7e7e7;
+    font-size: 20px;
+    margin-top: 24px;
+    pointer-events: none;
+    opacity: 0;
+    transition: all 400ms ease;
+}
+
+.skills .icons-container .icon:hover .skill{
+    opacity: 1;
+}
+
+
+
+
+
+/* .section-range {
     width: 100%;
     height: auto;
     display: flex;
@@ -681,22 +736,22 @@ h1 {
     text-align: center;
     margin: 80px 0 90px 0;
     padding-left: 300px;
-}
-.grille-skill {
+} */
+/* .grille-skill {
     display: grid;
     grid-template: repeat(3,80px) / repeat(2,500px); /*Pour crer les rangées et les colonnes*/
-    grid-gap: 50px; /*Espace entre les éléments*/
-    padding-left: 300px;
-}
-.barre-skill { /*Création des barres colorées*/
-    height: 15px;
+    /* grid-gap: 50px; /*Espace entre les éléments*/
+    /* padding-left: 300px; */
+/* } */
+/* .barre-skill { /*Création des barres colorées*/
+    /* height: 15px;
     background: rgb(167, 146, 243);
     border-radius: 5px;
     position: absolute;
     left: 0;
-    bottom: 0;
-}
-.barre-grises {
+    bottom: 0; */ 
+/* } */
+/* .barre-grises {
     position: absolute;
     z-index: -1;
     left: 0;
@@ -705,18 +760,18 @@ h1 {
     height: 15px;
     background: rgb(216,216,216);
     border-radius: 5px;
-}
-.b1 {
+} */
+/* .b1 {
     width: 30%;
-    background: midnightblue;
-}
-.b2 {
+    background: #f8754b;
+} */
+/* .b2 {
     width: 20%;
     background: #D300E3;
 }
 .b3 {
     width: 15%;
-    background: #DEE904;
+    background: #f0e343;
 }
 .b4 {
     width: 15%;
@@ -724,24 +779,25 @@ h1 {
 }
 .b5 {
     width: 15%;
-    background: #27ae60;
-}
-.b6 {
+    background: #2962ff;
+} */
+/* .b6 {
     width: 90%;
-}
-.label-skill {
+    background: #75a868;
+} */ 
+/* .label-skill {
     font-size: 24px;
 }
 /* Medias Range */
-@media screen and (max-width: 1400px) {
+/* @media screen and (max-width: 1400px) {
     .grille-skill {
     grid-template: repeat(3,80px) / repeat(2,450px);
     }
     .barre-grises {
         width: 450px;
     }
-}
-@media screen and (max-width: 1300px) {
+}   */
+/* @media screen and (max-width: 1300px) {
     .section-range {
         padding-left: 0;
     }
@@ -763,8 +819,8 @@ h1 {
     .barre-grises {
         width: 400px;
     }
-}
-@media screen and (max-width: 450px) {
+} */
+/* @media screen and (max-width: 450px) {
     .section-range{
         padding-bottom: 100px;
     }
@@ -782,7 +838,7 @@ h1 {
     .barre-grises {
         width: 300px;
     }
-}
+} */
 
 /**********************************SECTION EXPERIENCE TRAVAIL************************************/
 .travail-exp {

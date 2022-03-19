@@ -55,20 +55,21 @@
         </div>
         <div class="blocs-menu">
             <span class="nav-menu-item">
+                <a href="#exp">
+                    Experiences
+                </a>
+            </span>
+        </div>
+        <div class="blocs-menu">
+            <span class="nav-menu-item">
                 <a href="#contact">
                     Contact
                 </a>
             </span>
         </div>
         <!-- le bloc veille techno sera a supprimé -->
-        <div class="blocs-menu"> 
-            <span class="nav-menu-item">
-                <a href="#contact">
-                    Veille technologique
-                </a>
-            </span>
-        </div>
-        
+       
+    
         <div class="blocs-menu">
             <div class="logo-cercle">
                 <a href="#contact">
@@ -84,11 +85,12 @@
     <section class="accueil" id="accueil">
         <h1>Bienvenue sur mon portfolio</h1>
         <p class="txt-animation">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        <a href="#" class="btn-acc btn-acc1">Portfolio</a>
-        <a href="#" class="btn-acc btn-acc2">Expériences</a>
+        <a href="#port" class="btn-acc btn-acc1">Portfolio</a>
+        <a href="#exp" class="btn-acc btn-acc2">Expériences</a>
+        <a href="./ressources/CV NORDINE KHOUDOU.pdf" class="btn-acc btn-acc3">mon CV</a>
 
         <div class="medias">
-            <a href="https://github.com" target="blank">
+            <a href="https://github.com/nordine94" target="blank">
                 <div class="media media1">
                     <img src="ressources/github.svg" alt="github icone" class="icone-medias">
                 </div>
@@ -98,11 +100,7 @@
                     <img src="ressources/linkedin.svg" alt="linkedin icone" class="icone-medias">
                 </div>
             </a>
-            <a href="https://twitter.com" target="blank">
-                <div class="media media3">
-                    <img src="ressources/twitter.svg" alt="twitter icone" class="icone-medias">
-                </div>
-            </a>
+            
         </div>
 
         <a href="#pres">
@@ -120,7 +118,7 @@
         <div class="container-presentation">
             <div class="fond-forme"></div>
             <div class="pres-gauche"> <!--présentation à gauche-->
-                <h3>Mon parcours.</h3>
+                <h3>Mon parcours :</h3>
                 <hr> <!--sert à faire une délimitation-->
                 <p>Je me présente, KHOUDOU Nordine 34 ans je suis actuellement en pleine reconvertion professionnelle dans le domaine du developpement informatique.</p>
                 <br>
@@ -166,14 +164,14 @@
                </div>
                <h3>Mon projet</h3>
                <p>Site vitrine pour le salon de coiffure Hair Prestige.</p>
-               <a href="#" class="btn-projets">Découvrez le projet</a>
+               <a href="https://hair-prestige.vercel.app/" class="btn-projets">Découvrez le projet</a>
            </div> 
            <div class="item vague1">
                <div class="cont-img-port">
                    <img src="ressources/sustcoop.png" alt="img portfolio">
                </div>
                <h3>Sustcoop</h3>
-               <p>Conception d'un site one page en WordPress</p>
+               <p>Conception d'un site type landing page</p>
                <a href="#" class="btn-projets">Découvrez le projet</a>
            </div> 
            <!-- <div class="item vague1">
@@ -236,9 +234,39 @@
     </section>
 
     <!-- Section Range -->
-    <section class="section-range" id="range"> <!--Barre de competences-->
-        <h2 class="titre-exp">Mes compétences</h2>
-        <div class="grille-skill">
+    <section class="skills" id="skills"> <!--Barre de competences, avant appele "section-range"-->
+        <div class="wrapper">
+            <h2 class="titre-exp">Mes compétences</h2>
+            <div class="icons-container">
+                <div class="fond-forme2"></div>
+                <div class="icon">
+                    <img src="./ressources/skills/html5.svg" alt="">
+                    <div class="skill">HTML</div>
+                </div>
+                <div class="icon">
+                    <img src="./ressources/skills/css.svg" alt="">
+                    <div class="skill">CSS</div>
+                </div>
+                <div class="icon">
+                    <img src="./ressources/skills/javascript.svg" alt="">
+                    <div class="skill">JavaScript</div>
+                </div>
+                <div class="icon">
+                    <img src="./ressources/skills/nodejs.svg" alt="">
+                    <div class="skill">NodeJS</div>
+                </div>
+                <div class="icon">
+                    <img src="./ressources/skills/reactjs.svg" alt="">
+                    <div class="skill">React</div>
+                </div>
+                <div class="icon">
+                    <img src="./ressources/skills/mysql.svg" alt="">
+                    <div class="skill">MYSQL</div>
+                </div>
+            </div>
+        </div>
+       
+        <!-- <div class="grille-skill">
             <div class="range-cont">
                 <p class="label-skill">HTML</p>
                 <p class="number-skill">30%</p>
@@ -275,7 +303,7 @@
                 <div class="barre-skill b6"></div>
                 <div class="barre-grises"></div>
             </div>
-        </div>
+        </div> -->
     </section>
 
     <!-- Section -->
@@ -304,33 +332,31 @@
                 <div class="bloc bloc1">
                     <div class="contenu-bloc">
                         <p class="titre-section-bloc">Hair Prestige</p>
-                        <p class="txt-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                         Deleniti voluptate in eos ullam omnis.
-                        Labore optio pariatur atque ipsum reprehenderit.</p>
+                        <p class="txt-section">Stage de 8 semaines dans le cadre du BTS SIO. Developpement et mise en ligne d'une Web App pour un salon de coiffure.
+                            Amélioration de la presence en ligne de l'entreprise.
+                        </p>
                     </div>
                 </div>
                 <div class="bloc bloc2">
                     <div class="contenu-bloc">
                         <p class="titre-section-bloc">Sustcoop<or/p>
-                        <p class="txt-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                         Deleniti voluptate in eos ullam omnis.
-                        Labore optio pariatur atque ipsum reprehenderit.</p>
+                        <p class="txt-section">Stage de 3 semaines dans le cadre du BTS SIO. Side project de Sebastien Lamort (ENABLON) de mise en relation producteurs/consommateurs en circuit court.
+                            Etudes de l'existant et conception d'une Landing Page en Html/Css & Javascript.
+                        </p>
                     </div>
                 </div>
                 <div class="bloc bloc3">
                     <div class="contenu-bloc">
                         <p class="titre-section-bloc">SNCF</p>
-                        <p class="txt-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                         Deleniti voluptate in eos ullam omnis.
-                        Labore optio pariatur atque ipsum reprehenderit.</p>
+                        <p class="txt-section">Conducteur logistique et aiguilleur. Mon rôle est de definir les itinraires.
+                            Veillez au transit des rames TGV dans le respect des normes de sécurité.</p>
                     </div>
                 </div>
                 <div class="bloc bloc4">
                     <div class="contenu-bloc">
                         <p class="titre-section-bloc">Itiremia</p>
-                        <p class="txt-section">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                         Deleniti voluptate in eos ullam omnis.
-                        Labore optio pariatur atque ipsum reprehenderit.</p>
+                        <p class="txt-section">Agent de service en gare. Assister les voyageurs handicapés. Gérer les standards et l'accueil des voyageurs
+                            en situations perturbée. </p>
                     </div>
                 </div>
             </div>
