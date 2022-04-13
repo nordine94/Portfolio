@@ -1,0 +1,42 @@
+section#skills {
+    background: var(--lBlue);
+}
+
+.skill-zone {
+    width: 100%;
+    display: flex;
+}
+
+.skills-container{
+    padding: 0 190px ;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.skill-badge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 8rem;
+    height: 8rem;
+    margin: 10px 19px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.skill-logo {
+    width: 3rem;
+    height: auto;
+}
+
+.skill-name {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: black;
+}

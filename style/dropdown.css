@@ -1,0 +1,68 @@
+.dropdown span {
+  font-size: 14px;
+  color: var(--lBlue);
+  background: var(lBlue);
+  margin: 20px;
+  padding: 6px;
+  border: solid 2px var(--lBlue);
+  cursor: pointer;
+  transition: all 0.4s ease;
+  border-radius: 6px;
+}
+
+.dropdown span:hover {
+  color: var(--lBlue);
+  background: #fff;
+  border: 2px solid #111;
+  transition: all 0.4s ease;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #00000026;
+    padding: 12px 16px;
+    margin-top: 8px;
+  }
+
+  .dropdown-content a:hover {
+      text-decoration: underline;
+      background: rgba(211, 211, 211, 0.466);
+      font-weight: 400;
+  }
+  
+  .dropdown.is-open .dropdown-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dropdown-content a {
+      text-decoration: none;  
+  }
+
+  .dropdown i {
+    margin-right: 5px;
+    margin-top: 6px;
+    color: var(--lBlue);
+  }
+
+  .dropdown i.fa.fa-download::before {
+    content: "\f019";
+  }
+
+  .dropdown i.far.fa-file-pdf-o::before {
+    content: "\f1c1";
+  }
+
+  .dropdown i.far.fa-file-archive::before {
+    content: "\f1c6";
+  }
+
+  .dropdown i.far.fa-file-code::before {
+    content: "\f1c9";
+  }
+
+  .dropdown i.fa.fa-eye::before {
+    content: "\f06e";
+  }

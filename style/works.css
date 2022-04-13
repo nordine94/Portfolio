@@ -1,0 +1,139 @@
+.work {
+    background: #111;
+
+}
+
+.heading.white {
+    color: #fff;
+}
+
+.work .content {
+   display: unset; 
+}
+
+.work h3 {
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.work p a, .work p a:visited {
+    color: var(--lBlue);
+}
+
+.work p a:hover {
+    color: var(--dBlue);
+}
+
+a#syntheseE4 {
+    text-decoration: none;
+}
+
+.work div.contentBx ~ div.contentBx {
+    margin-top: 80px;
+}
+
+.work h2 ~ p {
+    text-align: justify;
+    margin-top: 20px;
+    padding: 0 150px;
+}
+
+.work .dropdown-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.work .acc-btn, 
+.work .acc-content {
+    color: #fff;
+}
+
+.acc-btn {
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 25px 25px 25px 35px;
+    cursor: pointer;
+    background: inherit;
+    border: none;
+    outline: none;
+    text-align: left;
+    transition: all 0.5s linear;
+    border-bottom: 0px solid #fff;
+    transition: border-bottom 0.3s ease-in-out;
+}
+
+.acc-btn:before {
+    content: "\27A4";
+    color: #fff;
+    margin: 0 20px;
+    float: left;
+    transition: all 0.3s linear;
+}
+
+.acc-btn.is-open:before {
+    transform: rotate(90deg);
+    color: var(--lBlue);
+}
+
+.acc-btn.is-open {
+    color: var(--lBlue);
+    border-bottom: 1px solid #fff;
+}
+
+.acc-content {
+    max-height: 0;
+    padding: 0 0 20px 35px;
+    overflow: hidden;
+    border-bottom: 1px solid #fff;
+    transition: max-height 0.3s ease-in-out;
+    
+}
+
+.acc-content p {
+    margin: 24px 0;
+}
+
+.missions-comp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.missions-comp ul {
+    margin-top: 9px;
+    padding: 0;
+}
+
+.missions-comp h4 {
+    text-align: center;
+    font-size: 20px;
+    margin: 25px 0;
+    padding: 0 20px;
+}
+
+.missions-comp li {
+    position: relative;
+    padding: 2px 10px 10px 25px;
+    text-align: left;
+    margin-left: 5px;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+.missions-comp .missions li {
+    max-width: 700px;
+}
+
+.missions-comp .comp li{
+    letter-spacing: 1.2px;
+}
+
+.missions-comp .missions li::before {
+    content: "-";
+    position: absolute;
+    margin-left: 8px;
+    left: 0;
+}

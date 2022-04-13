@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Wallpoet&display=swap');
+
+/* Variables globales */
+:root {
+--lBlue: #3ca2f6;
+--dBlue: #1342a8;
+}
+
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Wallpoet","Black Han Sans",'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 100px;
+    background-color: var(--lBlue);
+}
+
+/* Contenu */
+.heading {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #111;
+}
+
+.heading.white {
+    color: #fff;
+}
+
+.heading h2 {
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.contentBx {
+    padding: 0 20%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentBx h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.contentBx p ~ h3 {
+    margin-top: 30px;
+}
+
+.w50 {
+    min-width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.about .dropdown{
+    margin-top: 80px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+ .paws {
+     width: 20px;
+ }
+
+ footer p {
+     font-size: 15px;
+     font-weight: 100;
+ }
